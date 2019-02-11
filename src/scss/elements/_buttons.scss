@@ -1,0 +1,19 @@
+.btn {
+    width: 200px;
+    padding: 13px 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+    background: transparent;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5); 
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+

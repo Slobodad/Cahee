@@ -1,0 +1,49 @@
+// Footer
+
+.footer {
+    padding: 30px 0;
+    background-color: #262626;
+}
+
+.footer__copywrite--text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #b9b9b9;
+    
+}
+
+.footer__copywrite--text:last-child {
+    font-size: 15px;
+}
+
+.footer__copywrite--text a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #ff2b58;
+}
+
+.footer__copywrite--logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    color: #b9b9b9;
+
+
+}
+
+.footer__logo {
+
+    @include mq(phone, max) {
+        order: -1;
+        text-align: center;
+       }
+}
+
+.footer__text {
+
+    @include mq(phone, max) {
+        text-align: center;
+       }
+}
