@@ -8,12 +8,20 @@
     @include mq(tablet, max) {
         padding: 100px 0;
     }
+
+    @include mq(phone-landscape-min, max) {
+        padding: 50px 0;   
+    }
     
     @include mq(phone, max) {
         padding: 30px 0 30px;
     }
 
     &__img {
+
+        @include mq(phone-landscape, max) {
+            display: none;  
+        }
 
         @include mq(tablet, max) {
             display: none;
@@ -23,6 +31,12 @@
 
     &__title {
         padding: 0 0 10px 85px; 
+
+        @include mq(phone-landscape-min, max) {
+            padding: 0 5px 10px;
+            font-size: 40px;
+            text-align: center;  
+        }
         
         @include mq(phone, max) {
             padding: 0 5px 10px;
@@ -35,6 +49,11 @@
         padding: 0 0 15px 85px;
         text-align: left;
         color: #fff;
+
+        @include mq(phone-landscape-min, max) {
+            padding: 0 5px 10px;
+             
+        }
 
         @include mq(phone, max) {
             padding: 0 5px 10px;

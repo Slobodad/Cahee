@@ -2,7 +2,8 @@
 
 $breakpoints: (
     "phone":        416px,
-    "phone-wide":   481px,
+    "phone-landscape": 825px,
+    "phone-landscape-min": 737px,
     "phablet":      561px,
     "tablet-small": 641px,
     "tablet":       769px,
@@ -21,8 +22,4 @@ $breakpoints: (
             @content;
         }
     }
-}
-
-@include mq(tablet-wide, max) {
-    font-size: 1.5em;   
 }
